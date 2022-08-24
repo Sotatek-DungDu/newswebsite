@@ -1,0 +1,35 @@
+body {
+    font-family: "Roboto",sans-serif !important;
+}
+.sidebar {
+    width: 270px;
+    height: 100%;
+    z-index: 1000;
+    overflow-y: auto;
+    left: 0;
+    transform: translate(0);
+}
+.nav-link {
+    font-size: 1.1rem;
+    color: #000!important;
+    font-weight: 400;
+}
+
+.active {
+    color: #fff!important;
+}
+
+@media only screen and (min-width: 769px) {
+    /* .sidebar {
+        transform: translate(-100%);
+    } */
+    .offcanvas-start {
+        transform: translateX(0) !important;
+    }
+    .offcanvas {
+        visibility: visible!important;
+    }
+    .ant-notification {
+        top: 100px!important;
+    }
+}

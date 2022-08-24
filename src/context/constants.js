@@ -1,0 +1,3 @@
+export const titleTabFeedback = [{tab: "All", title: 'Tất cả'}, {tab: "Read", title: 'Chưa đọc'}, {tab: "Done", title: 'Chưa giải quyết'}];
+export const titleTabComment = [{tab: "All", title: 'Tất cả'}, {tab: "User", title: 'Theo người dùng'}, {tab: "News", title: 'Theo tin tức'}];
+export const titleTabSearch = [{tab: "Post", title: 'Tin tức'}, {tab: "Comment", title: 'Bình luận'}, {tab: "Feedback", title: 'Phản hồi'}, {tab: "Advertise", title: 'Quảng cáo'}];

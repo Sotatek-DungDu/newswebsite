@@ -1,0 +1,12 @@
+.main__content {
+    padding: 60px 0 30px 270px;
+}
+/* .nav-tabs > .active {
+    background-color: blue!important;
+    color: #fff;
+} */
+@media only screen and (max-width: 768px) {
+    .main__content {
+        padding: 30px 0;
+    }
+}

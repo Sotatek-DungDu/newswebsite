@@ -1,0 +1,33 @@
+.button__dropdown:focus {
+    box-shadow: none!important;
+}
+.hidden {
+    transform: translateX(-1000px);
+}
+.topbar {
+    padding-left: 200px;
+}
+.dropdown-menu {
+    left: -30px!important;
+}
+@media only screen and (max-width: 768px) {
+    .topbar {
+        padding-left: 0;
+    }
+    .hidden {
+        transform: translateX(0);
+    }
+    .list {
+        left: 0!important;
+        max-width: 100%!important;
+    }
+    
+}
+
+@media only screen and (min-width: 820px) {
+    .list {
+        left: 22%!important;
+        max-width: 77%!important;
+    }
+    
+}

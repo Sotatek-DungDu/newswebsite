@@ -1,0 +1,58 @@
+.list2 {
+
+    left: 20%;
+    max-width: 80%;
+    position: relative;
+    align-items: stretch;
+}
+
+.post-info {
+    left: 20%;
+    max-width: 50%;
+    position: relative;
+    align-items: stretch;
+    width: 100%;
+}
+/* .upload__box {
+    padding: 40px;
+} */
+.upload__inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+.upload__btn {
+    display: inline-block;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    min-width: 116px;
+    padding: 5px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 2px solid;
+    background-color: #4045ba;
+    border-color: #4045ba;
+    border-radius: 10px;
+    line-height: 26px;
+    font-size: 14px;
+}
+.upload__btn:hover {
+    background-color: unset;
+    color: #4045ba;
+    transition: all 0.3s ease;
+}
+.upload__btn-box {
+    margin-bottom: 10px;
+}
+.ant-form-large .ant-form-item-label > label {
+    width: 150px;
+}
+
+.createArticleItem {
+    margin-bottom: 10px;
+}
+

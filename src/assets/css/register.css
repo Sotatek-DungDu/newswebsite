@@ -1,0 +1,72 @@
+
+.form-register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom right,var(--bg1),var(--bg2));
+}
+.container-register {
+    display: flex;
+    border-radius: 10px;
+    padding: 40px 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    min-width: 300px;
+    min-height: 500px;
+    background-color: #fff;
+    /* padding: 30px 0; */
+}
+.form-title {
+    margin-bottom: 10px;
+}
+.label-register {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+    font-weight: 500;
+    text-align: left;
+}
+
+.input-register {
+    display: block;
+    width: 100%;
+    padding: 5px 7px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.466);
+}
+.input-register:focus {
+    outline: none;
+}
+.input-register + p {
+    display: block;
+    padding: 3px 0 3px 5px;
+    color: #dd2b0e;
+    width: 100%;
+}
+.clearfix {
+    display: grid;
+    width: 100%;
+    /* grid-template-columns: 50% 50%; */
+    column-gap: 5px;
+    margin-top: 30px;
+}
+
+.clearfix > button {
+    padding: 4px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    background: linear-gradient(to bottom right,var(--bg1),var(--bg2));
+    background-size: 200%;
+    transition: 0.5s;
+}
+
+.clearfix > button:hover {
+    background-position: right;
+}
